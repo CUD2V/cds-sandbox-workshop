@@ -1,0 +1,15 @@
+version: '2.2'
+
+services:
+
+  # ---------------------------------------------
+  cds-sandbox:
+    container_name: index
+    image: nginx:alpine
+    volumes:
+      - ./www:/usr/share/nginx/html
+    ports:
+      - "80:80"
+    environment:
+      HOST: localhost
+    command: ["sh", "-c", "nginx -g 'daemon off;'"]

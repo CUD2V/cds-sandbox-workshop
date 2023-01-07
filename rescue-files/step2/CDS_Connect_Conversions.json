@@ -1,0 +1,344 @@
+{
+   "library" : {
+      "annotation" : [ {
+         "translatorOptions" : "EnableDateRangeOptimization,EnableAnnotations,EnableLocators,EnableResultTypes,DisableListDemotion,DisableListPromotion,DisableMethodInvocation",
+         "type" : "CqlToElmInfo"
+      }, {
+         "type" : "Annotation",
+         "s" : {
+            "r" : "21",
+            "s" : [ {
+               "value" : [ "/**\n * This library supports conversions from one unit to another.  Conversions are added as needed by artifacts in\n * development.  Since case is important for some units, rather than use our normal PascalCasing, we use underscore\n * to separate words and maintain casing.  For example, to convert to \"mg/dL\", rather than call the function\n * `ToMgPerDLForBloodCholesterol`, we call it `to_mg_per_dL_for_blood_cholesterol`, in order to maintain casing.\n */","library CDS_Connect_Conversions version '1.0.1'" ]
+            } ]
+         }
+      } ],
+      "identifier" : {
+         "id" : "CDS_Connect_Conversions",
+         "version" : "1.0.1"
+      },
+      "schemaIdentifier" : {
+         "id" : "urn:hl7-org:elm",
+         "version" : "r1"
+      },
+      "usings" : {
+         "def" : [ {
+            "localIdentifier" : "System",
+            "uri" : "urn:hl7-org:elm-types:r1"
+         } ]
+      },
+      "statements" : {
+         "def" : [ {
+            "localId" : "21",
+            "locator" : "15:1-20:5",
+            "resultTypeName" : "{urn:hl7-org:elm-types:r1}Quantity",
+            "name" : "to_mg_per_dL_for_blood_cholesterol",
+            "context" : "Patient",
+            "accessLevel" : "Public",
+            "type" : "FunctionDef",
+            "annotation" : [ {
+               "type" : "Annotation",
+               "s" : {
+                  "r" : "21",
+                  "s" : [ {
+                     "value" : [ "/**\n * Converts mmol/L to mg/dL for blood cholesterol, using the formula: 1 mmol/L = 38.66976 mg/dL.  If the unit is\n * already mg/dL, it leaves it as is.  If an unrecognized unit is used, null is returned.\n * @param Q - a Quantity\n * @returns {Quantity} a Quantity using mg/dL units or null if null was passed in or unit couldn't be converted\n */","define function ","to_mg_per_dL_for_blood_cholesterol"," (","Q"," " ]
+                  }, {
+                     "r" : "1",
+                     "s" : [ {
+                        "value" : [ "Quantity" ]
+                     } ]
+                  }, {
+                     "value" : [ "):\n  " ]
+                  }, {
+                     "r" : "20",
+                     "s" : [ {
+                        "r" : "20",
+                        "s" : [ {
+                           "value" : [ "case\n    " ]
+                        }, {
+                           "r" : "7",
+                           "s" : [ {
+                              "value" : [ "when " ]
+                           }, {
+                              "r" : "5",
+                              "s" : [ {
+                                 "r" : "3",
+                                 "s" : [ {
+                                    "r" : "2",
+                                    "s" : [ {
+                                       "value" : [ "Q" ]
+                                    } ]
+                                 }, {
+                                    "value" : [ "." ]
+                                 }, {
+                                    "r" : "3",
+                                    "s" : [ {
+                                       "value" : [ "unit" ]
+                                    } ]
+                                 } ]
+                              }, {
+                                 "value" : [ " ","="," " ]
+                              }, {
+                                 "r" : "4",
+                                 "s" : [ {
+                                    "value" : [ "'mg/dL'" ]
+                                 } ]
+                              } ]
+                           }, {
+                              "value" : [ " then " ]
+                           }, {
+                              "r" : "6",
+                              "s" : [ {
+                                 "value" : [ "Q" ]
+                              } ]
+                           } ]
+                        }, {
+                           "value" : [ "\n    " ]
+                        }, {
+                           "r" : "18",
+                           "s" : [ {
+                              "value" : [ "when " ]
+                           }, {
+                              "r" : "11",
+                              "s" : [ {
+                                 "r" : "9",
+                                 "s" : [ {
+                                    "r" : "8",
+                                    "s" : [ {
+                                       "value" : [ "Q" ]
+                                    } ]
+                                 }, {
+                                    "value" : [ "." ]
+                                 }, {
+                                    "r" : "9",
+                                    "s" : [ {
+                                       "value" : [ "unit" ]
+                                    } ]
+                                 } ]
+                              }, {
+                                 "value" : [ " ","="," " ]
+                              }, {
+                                 "r" : "10",
+                                 "s" : [ {
+                                    "value" : [ "'mmol/L'" ]
+                                 } ]
+                              } ]
+                           }, {
+                              "value" : [ " then " ]
+                           }, {
+                              "r" : "17",
+                              "s" : [ {
+                                 "value" : [ "Quantity","{" ]
+                              }, {
+                                 "s" : [ {
+                                    "value" : [ "value",": " ]
+                                 }, {
+                                    "r" : "15",
+                                    "s" : [ {
+                                       "r" : "13",
+                                       "s" : [ {
+                                          "r" : "12",
+                                          "s" : [ {
+                                             "value" : [ "Q" ]
+                                          } ]
+                                       }, {
+                                          "value" : [ "." ]
+                                       }, {
+                                          "r" : "13",
+                                          "s" : [ {
+                                             "value" : [ "value" ]
+                                          } ]
+                                       } ]
+                                    }, {
+                                       "r" : "14",
+                                       "value" : [ " * ","38.66976" ]
+                                    } ]
+                                 } ]
+                              }, {
+                                 "value" : [ ", " ]
+                              }, {
+                                 "s" : [ {
+                                    "value" : [ "unit",": " ]
+                                 }, {
+                                    "r" : "16",
+                                    "s" : [ {
+                                       "value" : [ "'mg/dL'" ]
+                                    } ]
+                                 } ]
+                              }, {
+                                 "value" : [ "}" ]
+                              } ]
+                           } ]
+                        }, {
+                           "r" : "19",
+                           "value" : [ "\n    else ","null","\n  end" ]
+                        } ]
+                     } ]
+                  } ]
+               }
+            } ],
+            "expression" : {
+               "localId" : "20",
+               "locator" : "16:3-20:5",
+               "resultTypeName" : "{urn:hl7-org:elm-types:r1}Quantity",
+               "type" : "Case",
+               "caseItem" : [ {
+                  "localId" : "7",
+                  "locator" : "17:5-17:32",
+                  "when" : {
+                     "localId" : "5",
+                     "locator" : "17:10-17:25",
+                     "resultTypeName" : "{urn:hl7-org:elm-types:r1}Boolean",
+                     "type" : "Equal",
+                     "signature" : [ {
+                        "name" : "{urn:hl7-org:elm-types:r1}String",
+                        "type" : "NamedTypeSpecifier"
+                     }, {
+                        "name" : "{urn:hl7-org:elm-types:r1}String",
+                        "type" : "NamedTypeSpecifier"
+                     } ],
+                     "operand" : [ {
+                        "localId" : "3",
+                        "locator" : "17:10-17:15",
+                        "resultTypeName" : "{urn:hl7-org:elm-types:r1}String",
+                        "path" : "unit",
+                        "type" : "Property",
+                        "source" : {
+                           "localId" : "2",
+                           "locator" : "17:10",
+                           "resultTypeName" : "{urn:hl7-org:elm-types:r1}Quantity",
+                           "name" : "Q",
+                           "type" : "OperandRef"
+                        }
+                     }, {
+                        "localId" : "4",
+                        "locator" : "17:19-17:25",
+                        "resultTypeName" : "{urn:hl7-org:elm-types:r1}String",
+                        "valueType" : "{urn:hl7-org:elm-types:r1}String",
+                        "value" : "mg/dL",
+                        "type" : "Literal"
+                     } ]
+                  },
+                  "then" : {
+                     "localId" : "6",
+                     "locator" : "17:32",
+                     "resultTypeName" : "{urn:hl7-org:elm-types:r1}Quantity",
+                     "name" : "Q",
+                     "type" : "OperandRef"
+                  }
+               }, {
+                  "localId" : "18",
+                  "locator" : "18:5-18:82",
+                  "when" : {
+                     "localId" : "11",
+                     "locator" : "18:10-18:26",
+                     "resultTypeName" : "{urn:hl7-org:elm-types:r1}Boolean",
+                     "type" : "Equal",
+                     "signature" : [ {
+                        "name" : "{urn:hl7-org:elm-types:r1}String",
+                        "type" : "NamedTypeSpecifier"
+                     }, {
+                        "name" : "{urn:hl7-org:elm-types:r1}String",
+                        "type" : "NamedTypeSpecifier"
+                     } ],
+                     "operand" : [ {
+                        "localId" : "9",
+                        "locator" : "18:10-18:15",
+                        "resultTypeName" : "{urn:hl7-org:elm-types:r1}String",
+                        "path" : "unit",
+                        "type" : "Property",
+                        "source" : {
+                           "localId" : "8",
+                           "locator" : "18:10",
+                           "resultTypeName" : "{urn:hl7-org:elm-types:r1}Quantity",
+                           "name" : "Q",
+                           "type" : "OperandRef"
+                        }
+                     }, {
+                        "localId" : "10",
+                        "locator" : "18:19-18:26",
+                        "resultTypeName" : "{urn:hl7-org:elm-types:r1}String",
+                        "valueType" : "{urn:hl7-org:elm-types:r1}String",
+                        "value" : "mmol/L",
+                        "type" : "Literal"
+                     } ]
+                  },
+                  "then" : {
+                     "localId" : "17",
+                     "locator" : "18:33-18:82",
+                     "resultTypeName" : "{urn:hl7-org:elm-types:r1}Quantity",
+                     "classType" : "{urn:hl7-org:elm-types:r1}Quantity",
+                     "type" : "Instance",
+                     "element" : [ {
+                        "name" : "value",
+                        "value" : {
+                           "localId" : "15",
+                           "locator" : "18:49-18:66",
+                           "resultTypeName" : "{urn:hl7-org:elm-types:r1}Decimal",
+                           "type" : "Multiply",
+                           "signature" : [ {
+                              "name" : "{urn:hl7-org:elm-types:r1}Decimal",
+                              "type" : "NamedTypeSpecifier"
+                           }, {
+                              "name" : "{urn:hl7-org:elm-types:r1}Decimal",
+                              "type" : "NamedTypeSpecifier"
+                           } ],
+                           "operand" : [ {
+                              "localId" : "13",
+                              "locator" : "18:49-18:55",
+                              "resultTypeName" : "{urn:hl7-org:elm-types:r1}Decimal",
+                              "path" : "value",
+                              "type" : "Property",
+                              "source" : {
+                                 "localId" : "12",
+                                 "locator" : "18:49",
+                                 "resultTypeName" : "{urn:hl7-org:elm-types:r1}Quantity",
+                                 "name" : "Q",
+                                 "type" : "OperandRef"
+                              }
+                           }, {
+                              "localId" : "14",
+                              "locator" : "18:59-18:66",
+                              "resultTypeName" : "{urn:hl7-org:elm-types:r1}Decimal",
+                              "valueType" : "{urn:hl7-org:elm-types:r1}Decimal",
+                              "value" : "38.66976",
+                              "type" : "Literal"
+                           } ]
+                        }
+                     }, {
+                        "name" : "unit",
+                        "value" : {
+                           "localId" : "16",
+                           "locator" : "18:75-18:81",
+                           "resultTypeName" : "{urn:hl7-org:elm-types:r1}String",
+                           "valueType" : "{urn:hl7-org:elm-types:r1}String",
+                           "value" : "mg/dL",
+                           "type" : "Literal"
+                        }
+                     } ]
+                  }
+               } ],
+               "else" : {
+                  "asType" : "{urn:hl7-org:elm-types:r1}Quantity",
+                  "type" : "As",
+                  "operand" : {
+                     "localId" : "19",
+                     "locator" : "19:10-19:13",
+                     "resultTypeName" : "{urn:hl7-org:elm-types:r1}Any",
+                     "type" : "Null"
+                  }
+               }
+            },
+            "operand" : [ {
+               "name" : "Q",
+               "operandTypeSpecifier" : {
+                  "localId" : "1",
+                  "locator" : "15:55-15:62",
+                  "resultTypeName" : "{urn:hl7-org:elm-types:r1}Quantity",
+                  "name" : "{urn:hl7-org:elm-types:r1}Quantity",
+                  "type" : "NamedTypeSpecifier"
+               }
+            } ]
+         } ]
+      }
+   }
+}

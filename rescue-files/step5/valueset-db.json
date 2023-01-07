@@ -1,0 +1,6281 @@
+{
+  "2.16.840.1.113762.1.4.1032.9": {
+    "Latest": [
+      {
+        "code": "10725009",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "1078301000112109",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "111438007",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "1201005",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "123799005",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "123800009",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "14973001",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "169465000",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "194783001",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "194785008",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "194788005",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "194791005",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "199008003",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "26078007",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "28119000",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "31992008",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "371125006",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "39018007",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "39727004",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "401.0",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "401.1",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "401.9",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "402.00",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "402.01",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "402.10",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "402.11",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "402.90",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "402.91",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "403.00",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "403.01",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "403.10",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "403.11",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "403.90",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "403.91",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "404.00",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "404.01",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "404.02",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "404.03",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "404.10",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "404.11",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "404.12",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "404.13",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "404.90",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "404.91",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "404.92",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "404.93",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "405.01",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "405.09",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "405.11",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "405.19",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "405.91",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "405.99",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "427889009",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "428575007",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "429457004",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "461301000124109",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "46481004",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "48146000",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "48552006",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "56218007",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "57684003",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "59621000",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "59720008",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "65518004",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "73410007",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "74451002",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "762463000",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "78975002",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "89242004",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "I10",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "I11.0",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "I11.9",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "I12.0",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "I12.9",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "I13.0",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "I13.1",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "I13.10",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "I13.11",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "I13.2",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "I15",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "I15.0",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "I15.1",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "I15.2",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "I15.8",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "I15.9",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "I16",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "I16.0",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "I16.1",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "I16.9",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      }
+    ]
+  },
+  "2.16.840.1.113762.1.4.1104.2": {
+    "Latest": [
+      {
+        "code": "271649006",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "399304008",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "8480-6",
+        "system": "http://loinc.org",
+        "version": "2.71"
+      }
+    ]
+  },
+  "2.16.840.1.113883.3.117.1.7.1.215": {
+    "Latest": [
+      {
+        "code": "13457-7",
+        "system": "http://loinc.org",
+        "version": "2.71"
+      },
+      {
+        "code": "18261-8",
+        "system": "http://loinc.org",
+        "version": "2.71"
+      },
+      {
+        "code": "18262-6",
+        "system": "http://loinc.org",
+        "version": "2.71"
+      },
+      {
+        "code": "2089-1",
+        "system": "http://loinc.org",
+        "version": "2.71"
+      },
+      {
+        "code": "43394-6",
+        "system": "http://loinc.org",
+        "version": "2.71"
+      },
+      {
+        "code": "49132-4",
+        "system": "http://loinc.org",
+        "version": "2.71"
+      },
+      {
+        "code": "50193-2",
+        "system": "http://loinc.org",
+        "version": "2.71"
+      },
+      {
+        "code": "55440-2",
+        "system": "http://loinc.org",
+        "version": "2.71"
+      },
+      {
+        "code": "86911-5",
+        "system": "http://loinc.org",
+        "version": "2.71"
+      },
+      {
+        "code": "90364-1",
+        "system": "http://loinc.org",
+        "version": "2.71"
+      },
+      {
+        "code": "91105-7",
+        "system": "http://loinc.org",
+        "version": "2.71"
+      },
+      {
+        "code": "91106-5",
+        "system": "http://loinc.org",
+        "version": "2.71"
+      },
+      {
+        "code": "91107-3",
+        "system": "http://loinc.org",
+        "version": "2.71"
+      },
+      {
+        "code": "91108-1",
+        "system": "http://loinc.org",
+        "version": "2.71"
+      },
+      {
+        "code": "91109-9",
+        "system": "http://loinc.org",
+        "version": "2.71"
+      },
+      {
+        "code": "91110-7",
+        "system": "http://loinc.org",
+        "version": "2.71"
+      },
+      {
+        "code": "91111-5",
+        "system": "http://loinc.org",
+        "version": "2.71"
+      },
+      {
+        "code": "96259-7",
+        "system": "http://loinc.org",
+        "version": "2.71"
+      },
+      {
+        "code": "96597-0",
+        "system": "http://loinc.org",
+        "version": "2.71"
+      }
+    ]
+  },
+  "2.16.840.1.113883.3.3616.200.110.102.2050": {
+    "Latest": [
+      {
+        "code": "103918",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "103919",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "104490",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "104491",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1157991",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1157992",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1158284",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1158285",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1158753",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1158754",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1161691",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1161692",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1163274",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1164454",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1165346",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1165347",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1165660",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1165661",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1166061",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1166062",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1169988",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1169989",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1173051",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1173053",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1177400",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1177401",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1177512",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1177513",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1179132",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1179133",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1184638",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1184639",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1187973",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1187974",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1295323",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1297766",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1483793",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "151972",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "152923",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "153165",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1790676",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1790677",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1790678",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1790679",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1944257",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1944258",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1944259",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1944260",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1944261",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1944262",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1944263",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1944264",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1944265",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1944266",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1944734",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "196503",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "197903",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "197904",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "197905",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "198211",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "2001252",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "2001253",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "2001254",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "2001255",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "2001256",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "2001257",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "2001258",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "2001259",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "2001260",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "2001261",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "2001262",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "2001263",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "2001264",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "2001265",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "2001266",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "2001267",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "2001268",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "2001322",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "2001324",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "2001331",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "2001333",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "2001336",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "2001338",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "200345",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "203144",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "203333",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "206257",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "206258",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "208220",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "213319",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "2167555",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "2167556",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "2167557",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "2167559",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "2167560",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "2167563",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "2167564",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "2167565",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "2167566",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "2167567",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "2167568",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "2167569",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "2167570",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "2167571",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "2167572",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "2167573",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "2167574",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "2167575",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "224938",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "259255",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "262095",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "301542",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "310404",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "310405",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "312961",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "312962",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "314231",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "316174",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "316175",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "316176",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "316672",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "316673",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "316674",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "316675",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "317497",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "320864",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "323828",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "328265",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "328267",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "329299",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "330788",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "353377",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "359731",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "359732",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "360507",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "36567",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "366775",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "367665",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "368276",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "368322",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "368931",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "370621",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "372255",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "372652",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "373560",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "373888",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "375074",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "378724",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "402354",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "405880",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "41127",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "42463",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "433849",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "541841",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "541843",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "541845",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "542190",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "542195",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "563452",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "563453",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "563653",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "563654",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "565109",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "567115",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "567116",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "568935",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "573220",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "574676",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "597966",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "597970",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "597983",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "617310",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "617311",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "617312",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "617313",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "617314",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "617317",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "617318",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "617319",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "617320",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "6472",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "687046",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "687047",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "687048",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "72875",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "757701",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "757702",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "757703",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "757704",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "757705",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "83366",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "83367",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "859418",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "859419",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "859420",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "859421",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "859423",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "859424",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "859425",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "859426",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "859746",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "859747",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "859748",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "859749",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "859750",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "859751",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "859752",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "859753",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "861612",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "861634",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "861640",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "861642",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "861643",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "861645",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "861646",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "861648",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "861650",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "861652",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "861654",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "884383",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "904457",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "904458",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "904459",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "904460",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "904466",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "904467",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "904468",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "904469",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "904474",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "904475",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "904476",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "904477",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "904480",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "904481",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "904482",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "904483",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "997006",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "997007",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      }
+    ]
+  },
+  "2.16.840.1.113883.3.464.1003.103.12.1001": {
+    "Latest": [
+      {
+        "code": "102781000119107",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "104941000119109",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "104961000119108",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "109171000119104",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "110181000119105",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "138881000119106",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "138891000119109",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "138901000119108",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "138911000119106",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "138921000119104",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "138941000119105",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "1481000119100",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "1501000119109",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "1511000119107",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "1551000119108",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "190330002",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "190331003",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "190368000",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "190372001",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "190389009",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "199229001",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "199230006",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "23045005",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "237599002",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "237604008",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "250.00",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "250.01",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "250.02",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "250.03",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "250.10",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "250.11",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "250.12",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "250.13",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "250.20",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "250.21",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "250.22",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "250.23",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "250.30",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "250.31",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "250.32",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "250.33",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "250.40",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "250.41",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "250.42",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "250.43",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "250.50",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "250.51",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "250.52",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "250.53",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "250.60",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "250.61",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "250.62",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "250.63",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "250.70",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "250.71",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "250.72",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "250.73",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "250.80",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "250.81",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "250.82",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "250.83",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "250.90",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "250.91",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "250.92",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "250.93",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "28032008",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "28331000119107",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "31211000119101",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "31321000119102",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "313435000",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "313436004",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "314893005",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "314902007",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "314903002",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "357.2",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "359642000",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "362.01",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "362.02",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "362.03",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "362.04",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "362.05",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "362.06",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "362.07",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "366.41",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "368101000119109",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "368521000119107",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "368581000119106",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "41911000119107",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "420279001",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "420436000",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "420486006",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "420789003",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "420918009",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "421075007",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "421326000",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "421365002",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "421437000",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "421468001",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "421779007",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "421847006",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "421893009",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "422034002",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "422099009",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "422166005",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "427027005",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "427571000",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "428007007",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "44054006",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "46635009",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "60951000119105",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "609562003",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "609564002",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "609566000",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "609567009",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "60961000119107",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "60971000119101",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "60991000119100",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "648.00",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "648.01",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "648.02",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "648.03",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "648.04",
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013"
+      },
+      {
+        "code": "691000119103",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "712882000",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "712883005",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "713702000",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "713703005",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "713705003",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "713706002",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "71441000119104",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "71721000119101",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "71791000119104",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "719216001",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "739681000",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "770098001",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "81531005",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "82541000119100",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "82551000119103",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "82571000119107",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "82581000119105",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "87921000119104",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "97331000119101",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "9859006",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "E10.10",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.11",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.21",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.22",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.29",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.311",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.319",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.321",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.3211",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.3212",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.3213",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.3219",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.329",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.3291",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.3292",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.3293",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.3299",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.331",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.3311",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.3312",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.3313",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.3319",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.339",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.3391",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.3392",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.3393",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.3399",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.341",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.3411",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.3412",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.3413",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.3419",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.349",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.3491",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.3492",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.3493",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.3499",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.351",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.3511",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.3512",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.3513",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.3519",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.3521",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.3522",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.3523",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.3529",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.3531",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.3532",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.3533",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.3539",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.3541",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.3542",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.3543",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.3549",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.3551",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.3552",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.3553",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.3559",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.359",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.3591",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.3592",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.3593",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.3599",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.36",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.37X1",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.37X2",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.37X3",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.37X9",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.39",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.40",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.41",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.42",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.43",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.44",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.49",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.51",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.52",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.59",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.610",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.618",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.620",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.621",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.622",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.628",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.630",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.638",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.641",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.649",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.65",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.69",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.8",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E10.9",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.00",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.01",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.10",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.11",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.21",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.22",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.29",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.311",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.319",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.321",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.3211",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.3212",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.3213",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.3219",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.329",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.3291",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.3292",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.3293",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.3299",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.331",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.3311",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.3312",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.3313",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.3319",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.339",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.3391",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.3392",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.3393",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.3399",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.341",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.3411",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.3412",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.3413",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.3419",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.349",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.3491",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.3492",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.3493",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.3499",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.351",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.3511",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.3512",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.3513",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.3519",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.3521",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.3522",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.3523",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.3529",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.3531",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.3532",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.3533",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.3539",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.3541",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.3542",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.3543",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.3549",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.3551",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.3552",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.3553",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.3559",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.359",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.3591",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.3592",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.3593",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.3599",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.36",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.37X1",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.37X2",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.37X3",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.37X9",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.39",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.40",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.41",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.42",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.43",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.44",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.49",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.51",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.52",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.59",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.610",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.618",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.620",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.621",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.622",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.628",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.630",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.638",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.641",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.649",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.65",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.69",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.8",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E11.9",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.00",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.01",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.10",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.11",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.21",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.22",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.29",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.311",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.319",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.321",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.3211",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.3212",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.3213",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.3219",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.329",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.3291",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.3292",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.3293",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.3299",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.331",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.3311",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.3312",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.3313",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.3319",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.339",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.3391",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.3392",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.3393",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.3399",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.341",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.3411",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.3412",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.3413",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.3419",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.349",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.3491",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.3492",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.3493",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.3499",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.351",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.3511",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.3512",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.3513",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.3519",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.3521",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.3522",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.3523",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.3529",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.3531",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.3532",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.3533",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.3539",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.3541",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.3542",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.3543",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.3549",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.3551",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.3552",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.3553",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.3559",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.359",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.3591",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.3592",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.3593",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.3599",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.36",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.37X1",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.37X2",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.37X3",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.37X9",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.39",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.40",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.41",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.42",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.43",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.44",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.49",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.51",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.52",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.59",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.610",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.618",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.620",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.621",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.622",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.628",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.630",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.638",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.641",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.649",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.65",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.69",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.8",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "E13.9",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "O24.011",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "O24.012",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "O24.013",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "O24.019",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "O24.02",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "O24.03",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "O24.111",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "O24.112",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "O24.113",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "O24.119",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "O24.12",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "O24.13",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "O24.311",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "O24.312",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "O24.313",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "O24.319",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "O24.32",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "O24.33",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "O24.811",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "O24.812",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "O24.813",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "O24.819",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "O24.82",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      },
+      {
+        "code": "O24.83",
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022"
+      }
+    ]
+  },
+  "2.16.840.1.113883.3.464.1003.104.11.1033": {
+    "Latest": [
+      {
+        "code": "2093-3",
+        "system": "http://loinc.org",
+        "version": "2.71"
+      },
+      {
+        "code": "48620-9",
+        "system": "http://loinc.org",
+        "version": "2.71"
+      }
+    ]
+  },
+  "2.16.840.1.113883.3.464.1003.104.12.1012": {
+    "Latest": [
+      {
+        "code": "18263-4",
+        "system": "http://loinc.org",
+        "version": "2.71"
+      },
+      {
+        "code": "2085-9",
+        "system": "http://loinc.org",
+        "version": "2.71"
+      },
+      {
+        "code": "49130-8",
+        "system": "http://loinc.org",
+        "version": "2.71"
+      }
+    ]
+  },
+  "2.16.840.1.113883.3.600.1476": {
+    "Latest": [
+      {
+        "code": "1000001",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1011710",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1011713",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1011736",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1011739",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1011750",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1011753",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1013930",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1013937",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1091646",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1091652",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1092566",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1191185",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1234256",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1235144",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1235151",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1297753",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1297757",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1299859",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1299871",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1299890",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1299896",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1299897",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1423767",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1435624",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1495058",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "153822",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "153823",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1593725",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1606347",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1606349",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1656340",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1656349",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1656354",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1665057",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1665061",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1719286",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1719290",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1719291",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1729200",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1729205",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1736541",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1736546",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1790239",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1790245",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1790247",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1791229",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1791232",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1791233",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1791240",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1798281",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1806884",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1923422",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1923424",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1923426",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "197361",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "197379",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "197380",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "197381",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "197382",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "197383",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "197417",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "197418",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "197419",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "197436",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "197437",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "197438",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "197439",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "197475",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "197476",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "197499",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "197500",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "197625",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "197626",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "197627",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "197628",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "197730",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "197731",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "197732",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "197745",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "197746",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "197770",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "197815",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "197816",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "197848",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "197849",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "197884",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "197885",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "197886",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "197887",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "197951",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "197956",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "197958",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "197960",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "197963",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "197978",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "197979",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "197986",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "197987",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "198000",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "198001",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "198006",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "198007",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "198008",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "198032",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "198033",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "198034",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "198035",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "198036",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "198037",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "198104",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "198105",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "198141",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "198188",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "198189",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "198222",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "198223",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "198224",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "198225",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "198284",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "198285",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "198286",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "198312",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "198313",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "198314",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "198316",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "198369",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "198370",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "198371",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "198372",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "199351",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "199352",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "199353",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "199903",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1999031",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1999033",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1999035",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "1999037",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "200031",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "200032",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "200033",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "200094",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "200095",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "200096",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "200284",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "200285",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "205304",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "205305",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "205326",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "251856",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "251857",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "260376",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "261962",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "282486",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "282755",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "283316",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "283317",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "308135",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "308136",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "308962",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "308963",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "308964",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "309198",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "310140",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "310429",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "310792",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "310793",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "310796",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "310797",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "310798",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "310809",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "310812",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "310818",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "311353",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "311354",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "311671",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "311984",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "311985",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "312593",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "312594",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "312748",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "312749",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "312750",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "313096",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "313215",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "313217",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "313219",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "313988",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "314076",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "314077",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "314203",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "317173",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "349199",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "349200",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "349201",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "349353",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "349373",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "349401",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "349405",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "349483",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "351292",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "351293",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "360344",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "387013",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "401965",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "401968",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "402695",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "402696",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "402698",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "403853",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "403854",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "403855",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "404011",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "404013",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "429503",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "477130",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "484152",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "485471",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "562518",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "562520",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "577776",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "578325",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "578330",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "597967",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "597971",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "597974",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "597977",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "597980",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "597984",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "597987",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "597990",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "597993",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "636042",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "636045",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "636360",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "636361",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "639537",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "686924",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "722126",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "722131",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "722134",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "722137",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "727574",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "727575",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "730861",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "730866",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "730869",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "730872",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "751612",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "751618",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "763519",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "763574",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "763589",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "790489",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "802749",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "827073",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "830795",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "830801",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "830837",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "830845",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "830861",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "830865",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "830869",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "830872",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "830874",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "830877",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "830879",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "830882",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "830897",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "830900",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "831054",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "831102",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "831103",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "831359",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "833217",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "845488",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "848131",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "848135",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "848140",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "848145",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "848151",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "854901",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "854905",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "854908",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "854916",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "854919",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "854925",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "854984",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "854988",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "856422",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "856429",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "856443",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "856448",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "856457",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "856460",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "856481",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "856519",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "856535",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "856556",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "856569",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "856578",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "856724",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "856733",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "857166",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "857169",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "857174",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "857183",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "857187",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "858580",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "858587",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "858599",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "858603",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "858607",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "858613",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "858616",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "858804",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "858810",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "858813",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "858817",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "858824",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "858828",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "860510",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "860516",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "860522",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "860532",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "861402",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "862006",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "862013",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "862019",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "862025",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "866412",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "866419",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "866427",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "866436",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "866452",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "866461",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "866472",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "866479",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "866482",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "866491",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "866508",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "866511",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "866514",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "866924",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "876514",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "876519",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "876524",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "876529",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "884173",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "884185",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "884189",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "884192",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "884198",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "884203",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "884221",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "884225",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "896758",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "896762",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "896766",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "896771",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "897584",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "897590",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "897596",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "897612",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "897618",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "897624",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "897630",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "897640",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "897649",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "897659",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "897666",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "897683",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "897722",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "897781",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "897783",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "897844",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "897853",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "898316",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "898342",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "898346",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "898350",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "898353",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "898356",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "898359",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "898362",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "898367",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "898372",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "898378",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "898687",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "898690",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "898719",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "898723",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "904589",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "904630",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "905199",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "905222",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "905225",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "905377",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "905395",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "966571",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "977880",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "977883",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "979432",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "979464",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "979468",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "979471",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "979480",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "979485",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "979492",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "998685",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "998689",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "999967",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "999986",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "999991",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      },
+      {
+        "code": "999996",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "2021-09"
+      }
+    ]
+  },
+  "2.16.840.1.113883.3.600.2390": {
+    "Latest": [
+      {
+        "code": "160603005",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "160604004",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "160605003",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "160606002",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "160619003",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "230059006",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "230060001",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "230062009",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "230063004",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "230064005",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "230065006",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "266920004",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "365981007",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "365982000",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "428041000124106",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "428061000124105",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "428071000124103",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "449868002",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "450811000124104",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "450821000124107",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "56578002",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "56771006",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "59978006",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "65568007",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "77176002",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      },
+      {
+        "code": "82302008",
+        "system": "http://snomed.info/sct",
+        "version": "2021-09"
+      }
+    ]
+  },
+  "2.16.840.1.113883.3.600.873": {
+    "Latest": [
+      {
+        "code": "14646-4",
+        "system": "http://loinc.org",
+        "version": "2.71"
+      },
+      {
+        "code": "18263-4",
+        "system": "http://loinc.org",
+        "version": "2.71"
+      },
+      {
+        "code": "2085-9",
+        "system": "http://loinc.org",
+        "version": "2.71"
+      }
+    ]
+  },
+  "2.16.840.1.113883.3.600.877": {
+    "Latest": [
+      {
+        "code": "14647-2",
+        "system": "http://loinc.org",
+        "version": "2.71"
+      },
+      {
+        "code": "2093-3",
+        "system": "http://loinc.org",
+        "version": "2.71"
+      }
+    ]
+  }
+}

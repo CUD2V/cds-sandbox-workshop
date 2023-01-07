@@ -4,18 +4,7 @@ This repository contains supplemental materials for the article **Playing in the
 
 ### VM Build
 
-- Install Ubuntu and required packages
-- Install Atom editor with CQL plugin
-- Install Smart on FHIR Launcher (Dev Sandbox)
-- Install the CQL Engine: AHRQ-CDS-Connect-CQL-SERVICES
-- Install AHRQ-CDS-Connect-Authoring-Tool
-- Install the CQL to ELM translator
-- Instsall CDS-HOOKS Sandbox
-- Create a SMART ON FHIR app
-- Create a Shell Script to load the services
-- Setup Homepage
-- Setup Rescue Files
-- Setup Environment
+- Instructions in the Setup folder
 
 ### Tutorial Materials
 

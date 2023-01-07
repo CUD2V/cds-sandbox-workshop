@@ -1,0 +1,930 @@
+{
+   "library" : {
+      "annotation" : [ {
+         "translatorOptions" : "",
+         "type" : "CqlToElmInfo"
+      } ],
+      "identifier" : {
+         "id" : "Statin-Use-Example",
+         "version" : "0.0.1"
+      },
+      "schemaIdentifier" : {
+         "id" : "urn:hl7-org:elm",
+         "version" : "r1"
+      },
+      "usings" : {
+         "def" : [ {
+            "localIdentifier" : "System",
+            "uri" : "urn:hl7-org:elm-types:r1"
+         }, {
+            "localIdentifier" : "FHIR",
+            "uri" : "http://hl7.org/fhir",
+            "version" : "4.0.0"
+         } ]
+      },
+      "includes" : {
+         "def" : [ {
+            "localIdentifier" : "FHIRHelpers",
+            "path" : "FHIRHelpers",
+            "version" : "4.0.0"
+         }, {
+            "localIdentifier" : "CDS_Connect_Conversions",
+            "path" : "CDS_Connect_Conversions",
+            "version" : "1.0.1"
+         }, {
+            "localIdentifier" : "C3F",
+            "path" : "CDS_Connect_Commons_for_FHIRv400",
+            "version" : "1.0.1"
+         }, {
+            "localIdentifier" : "Million_Hearts_Baseline_10_Year_ASCVD_Risk_FHIRv400",
+            "path" : "Million_Hearts_Baseline_10_Year_ASCVD_Risk_FHIRv400",
+            "version" : "1.0.0"
+         } ]
+      },
+      "codeSystems" : {
+         "def" : [ {
+            "name" : "Condition Verification Status",
+            "id" : "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+            "accessLevel" : "Public"
+         }, {
+            "name" : "Condition Clinical Status",
+            "id" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
+            "accessLevel" : "Public"
+         }, {
+            "name" : "LOINC",
+            "id" : "http://loinc.org",
+            "accessLevel" : "Public"
+         } ]
+      },
+      "valueSets" : {
+         "def" : [ {
+            "name" : "LDL-c VS",
+            "id" : "https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.117.1.7.1.215",
+            "accessLevel" : "Public"
+         }, {
+            "name" : "Diabetes VS",
+            "id" : "https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.103.12.1001",
+            "accessLevel" : "Public"
+         }, {
+            "name" : "Statins VS",
+            "id" : "https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.3616.200.110.102.2050",
+            "accessLevel" : "Public"
+         }, {
+            "name" : "Hypertension VS",
+            "id" : "https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1032.9",
+            "accessLevel" : "Public"
+         } ]
+      },
+      "codes" : {
+         "def" : [ {
+            "name" : "Confirmed code",
+            "id" : "confirmed",
+            "display" : "Confirmed",
+            "accessLevel" : "Public",
+            "codeSystem" : {
+               "name" : "Condition Verification Status"
+            }
+         }, {
+            "name" : "Active code",
+            "id" : "active",
+            "display" : "Active",
+            "accessLevel" : "Public",
+            "codeSystem" : {
+               "name" : "Condition Clinical Status"
+            }
+         } ]
+      },
+      "contexts" : {
+         "def" : [ {
+            "name" : "Patient"
+         } ]
+      },
+      "statements" : {
+         "def" : [ {
+            "name" : "Patient",
+            "context" : "Patient",
+            "expression" : {
+               "type" : "SingletonFrom",
+               "operand" : {
+                  "dataType" : "{http://hl7.org/fhir}Patient",
+                  "type" : "Retrieve"
+               }
+            }
+         }, {
+            "name" : "Has Hypertension",
+            "context" : "Patient",
+            "accessLevel" : "Public",
+            "expression" : {
+               "type" : "Exists",
+               "operand" : {
+                  "name" : "ActiveOrRecurring",
+                  "libraryName" : "C3F",
+                  "type" : "FunctionRef",
+                  "operand" : [ {
+                     "name" : "Confirmed",
+                     "libraryName" : "C3F",
+                     "type" : "FunctionRef",
+                     "operand" : [ {
+                        "dataType" : "{http://hl7.org/fhir}Condition",
+                        "codeProperty" : "code",
+                        "codeComparator" : "in",
+                        "type" : "Retrieve",
+                        "codes" : {
+                           "name" : "Hypertension VS",
+                           "type" : "ValueSetRef"
+                        }
+                     } ]
+                  } ]
+               }
+            }
+         }, {
+            "name" : "Age 40 to 75",
+            "context" : "Patient",
+            "accessLevel" : "Public",
+            "expression" : {
+               "type" : "And",
+               "operand" : [ {
+                  "type" : "GreaterOrEqual",
+                  "operand" : [ {
+                     "precision" : "Year",
+                     "type" : "CalculateAge",
+                     "operand" : {
+                        "path" : "birthDate.value",
+                        "type" : "Property",
+                        "source" : {
+                           "name" : "Patient",
+                           "type" : "ExpressionRef"
+                        }
+                     }
+                  }, {
+                     "valueType" : "{urn:hl7-org:elm-types:r1}Integer",
+                     "value" : "40",
+                     "type" : "Literal"
+                  } ]
+               }, {
+                  "type" : "LessOrEqual",
+                  "operand" : [ {
+                     "precision" : "Year",
+                     "type" : "CalculateAge",
+                     "operand" : {
+                        "path" : "birthDate.value",
+                        "type" : "Property",
+                        "source" : {
+                           "name" : "Patient",
+                           "type" : "ExpressionRef"
+                        }
+                     }
+                  }, {
+                     "valueType" : "{urn:hl7-org:elm-types:r1}Integer",
+                     "value" : "75",
+                     "type" : "Literal"
+                  } ]
+               } ]
+            }
+         }, {
+            "name" : "PeriodToInterval",
+            "context" : "Patient",
+            "accessLevel" : "Public",
+            "type" : "FunctionDef",
+            "expression" : {
+               "type" : "If",
+               "condition" : {
+                  "type" : "IsNull",
+                  "operand" : {
+                     "name" : "period",
+                     "type" : "OperandRef"
+                  }
+               },
+               "then" : {
+                  "type" : "As",
+                  "operand" : {
+                     "type" : "Null"
+                  },
+                  "asTypeSpecifier" : {
+                     "type" : "IntervalTypeSpecifier",
+                     "pointType" : {
+                        "name" : "{urn:hl7-org:elm-types:r1}DateTime",
+                        "type" : "NamedTypeSpecifier"
+                     }
+                  }
+               },
+               "else" : {
+                  "lowClosed" : true,
+                  "highClosed" : true,
+                  "type" : "Interval",
+                  "low" : {
+                     "path" : "value",
+                     "type" : "Property",
+                     "source" : {
+                        "path" : "start",
+                        "type" : "Property",
+                        "source" : {
+                           "name" : "period",
+                           "type" : "OperandRef"
+                        }
+                     }
+                  },
+                  "high" : {
+                     "path" : "value",
+                     "type" : "Property",
+                     "source" : {
+                        "path" : "end",
+                        "type" : "Property",
+                        "source" : {
+                           "name" : "period",
+                           "type" : "OperandRef"
+                        }
+                     }
+                  }
+               }
+            },
+            "operand" : [ {
+               "name" : "period",
+               "operandTypeSpecifier" : {
+                  "name" : "{http://hl7.org/fhir}Period",
+                  "type" : "NamedTypeSpecifier"
+               }
+            } ]
+         }, {
+            "name" : "ObservationLookBack",
+            "context" : "Patient",
+            "accessLevel" : "Public",
+            "type" : "FunctionDef",
+            "expression" : {
+               "type" : "Query",
+               "source" : [ {
+                  "alias" : "O",
+                  "expression" : {
+                     "name" : "ObsList",
+                     "type" : "OperandRef"
+                  }
+               } ],
+               "let" : [ {
+                  "identifier" : "LookBackInterval",
+                  "expression" : {
+                     "lowClosed" : true,
+                     "highClosed" : true,
+                     "type" : "Interval",
+                     "low" : {
+                        "type" : "Subtract",
+                        "operand" : [ {
+                           "type" : "Now"
+                        }, {
+                           "name" : "LookBack",
+                           "type" : "OperandRef"
+                        } ]
+                     },
+                     "high" : {
+                        "type" : "Now"
+                     }
+                  }
+               } ],
+               "relationship" : [ ],
+               "where" : {
+                  "type" : "Or",
+                  "operand" : [ {
+                     "type" : "Or",
+                     "operand" : [ {
+                        "type" : "Or",
+                        "operand" : [ {
+                           "type" : "In",
+                           "operand" : [ {
+                              "path" : "value",
+                              "type" : "Property",
+                              "source" : {
+                                 "strict" : false,
+                                 "type" : "As",
+                                 "operand" : {
+                                    "path" : "effective",
+                                    "scope" : "O",
+                                    "type" : "Property"
+                                 },
+                                 "asTypeSpecifier" : {
+                                    "name" : "{http://hl7.org/fhir}dateTime",
+                                    "type" : "NamedTypeSpecifier"
+                                 }
+                              }
+                           }, {
+                              "name" : "LookBackInterval",
+                              "type" : "QueryLetRef"
+                           } ]
+                        }, {
+                           "type" : "In",
+                           "operand" : [ {
+                              "path" : "value",
+                              "type" : "Property",
+                              "source" : {
+                                 "strict" : false,
+                                 "type" : "As",
+                                 "operand" : {
+                                    "path" : "effective",
+                                    "scope" : "O",
+                                    "type" : "Property"
+                                 },
+                                 "asTypeSpecifier" : {
+                                    "name" : "{http://hl7.org/fhir}instant",
+                                    "type" : "NamedTypeSpecifier"
+                                 }
+                              }
+                           }, {
+                              "name" : "LookBackInterval",
+                              "type" : "QueryLetRef"
+                           } ]
+                        } ]
+                     }, {
+                        "type" : "Overlaps",
+                        "operand" : [ {
+                           "name" : "PeriodToInterval",
+                           "type" : "FunctionRef",
+                           "operand" : [ {
+                              "strict" : false,
+                              "type" : "As",
+                              "operand" : {
+                                 "path" : "effective",
+                                 "scope" : "O",
+                                 "type" : "Property"
+                              },
+                              "asTypeSpecifier" : {
+                                 "name" : "{http://hl7.org/fhir}Period",
+                                 "type" : "NamedTypeSpecifier"
+                              }
+                           } ]
+                        }, {
+                           "name" : "LookBackInterval",
+                           "type" : "QueryLetRef"
+                        } ]
+                     } ]
+                  }, {
+                     "type" : "In",
+                     "operand" : [ {
+                        "path" : "value",
+                        "type" : "Property",
+                        "source" : {
+                           "path" : "issued",
+                           "scope" : "O",
+                           "type" : "Property"
+                        }
+                     }, {
+                        "name" : "LookBackInterval",
+                        "type" : "QueryLetRef"
+                     } ]
+                  } ]
+               }
+            },
+            "operand" : [ {
+               "name" : "ObsList",
+               "operandTypeSpecifier" : {
+                  "type" : "ListTypeSpecifier",
+                  "elementType" : {
+                     "name" : "{http://hl7.org/fhir}Observation",
+                     "type" : "NamedTypeSpecifier"
+                  }
+               }
+            }, {
+               "name" : "LookBack",
+               "operandTypeSpecifier" : {
+                  "name" : "{urn:hl7-org:elm-types:r1}Quantity",
+                  "type" : "NamedTypeSpecifier"
+               }
+            } ]
+         }, {
+            "name" : "Verified",
+            "context" : "Patient",
+            "accessLevel" : "Public",
+            "type" : "FunctionDef",
+            "expression" : {
+               "type" : "Query",
+               "source" : [ {
+                  "alias" : "O",
+                  "expression" : {
+                     "name" : "ObsList",
+                     "type" : "OperandRef"
+                  }
+               } ],
+               "relationship" : [ ],
+               "where" : {
+                  "type" : "In",
+                  "operand" : [ {
+                     "path" : "value",
+                     "type" : "Property",
+                     "source" : {
+                        "path" : "status",
+                        "scope" : "O",
+                        "type" : "Property"
+                     }
+                  }, {
+                     "type" : "List",
+                     "element" : [ {
+                        "valueType" : "{urn:hl7-org:elm-types:r1}String",
+                        "value" : "final",
+                        "type" : "Literal"
+                     }, {
+                        "valueType" : "{urn:hl7-org:elm-types:r1}String",
+                        "value" : "corrected",
+                        "type" : "Literal"
+                     }, {
+                        "valueType" : "{urn:hl7-org:elm-types:r1}String",
+                        "value" : "amended",
+                        "type" : "Literal"
+                     } ]
+                  } ]
+               }
+            },
+            "operand" : [ {
+               "name" : "ObsList",
+               "operandTypeSpecifier" : {
+                  "type" : "ListTypeSpecifier",
+                  "elementType" : {
+                     "name" : "{http://hl7.org/fhir}Observation",
+                     "type" : "NamedTypeSpecifier"
+                  }
+               }
+            } ]
+         }, {
+            "name" : "MostRecent",
+            "context" : "Patient",
+            "accessLevel" : "Public",
+            "type" : "FunctionDef",
+            "expression" : {
+               "type" : "Last",
+               "source" : {
+                  "type" : "Query",
+                  "source" : [ {
+                     "alias" : "O",
+                     "expression" : {
+                        "name" : "ObsList",
+                        "type" : "OperandRef"
+                     }
+                  } ],
+                  "relationship" : [ ],
+                  "sort" : {
+                     "by" : [ {
+                        "direction" : "asc",
+                        "type" : "ByExpression",
+                        "expression" : {
+                           "type" : "Coalesce",
+                           "operand" : [ {
+                              "path" : "value",
+                              "type" : "Property",
+                              "source" : {
+                                 "strict" : false,
+                                 "type" : "As",
+                                 "operand" : {
+                                    "name" : "effective",
+                                    "type" : "IdentifierRef"
+                                 },
+                                 "asTypeSpecifier" : {
+                                    "name" : "{http://hl7.org/fhir}dateTime",
+                                    "type" : "NamedTypeSpecifier"
+                                 }
+                              }
+                           }, {
+                              "path" : "value",
+                              "type" : "Property",
+                              "source" : {
+                                 "strict" : false,
+                                 "type" : "As",
+                                 "operand" : {
+                                    "name" : "effective",
+                                    "type" : "IdentifierRef"
+                                 },
+                                 "asTypeSpecifier" : {
+                                    "name" : "{http://hl7.org/fhir}instant",
+                                    "type" : "NamedTypeSpecifier"
+                                 }
+                              }
+                           }, {
+                              "path" : "value",
+                              "type" : "Property",
+                              "source" : {
+                                 "path" : "end",
+                                 "type" : "Property",
+                                 "source" : {
+                                    "strict" : false,
+                                    "type" : "As",
+                                    "operand" : {
+                                       "name" : "effective",
+                                       "type" : "IdentifierRef"
+                                    },
+                                    "asTypeSpecifier" : {
+                                       "name" : "{http://hl7.org/fhir}Period",
+                                       "type" : "NamedTypeSpecifier"
+                                    }
+                                 }
+                              }
+                           }, {
+                              "path" : "value",
+                              "type" : "Property",
+                              "source" : {
+                                 "path" : "start",
+                                 "type" : "Property",
+                                 "source" : {
+                                    "strict" : false,
+                                    "type" : "As",
+                                    "operand" : {
+                                       "name" : "effective",
+                                       "type" : "IdentifierRef"
+                                    },
+                                    "asTypeSpecifier" : {
+                                       "name" : "{http://hl7.org/fhir}Period",
+                                       "type" : "NamedTypeSpecifier"
+                                    }
+                                 }
+                              }
+                           }, {
+                              "path" : "value",
+                              "type" : "Property",
+                              "source" : {
+                                 "name" : "issued",
+                                 "type" : "IdentifierRef"
+                              }
+                           } ]
+                        }
+                     } ]
+                  }
+               }
+            },
+            "operand" : [ {
+               "name" : "ObsList",
+               "operandTypeSpecifier" : {
+                  "type" : "ListTypeSpecifier",
+                  "elementType" : {
+                     "name" : "{http://hl7.org/fhir}Observation",
+                     "type" : "NamedTypeSpecifier"
+                  }
+               }
+            } ]
+         }, {
+            "name" : "QuantityValue",
+            "context" : "Patient",
+            "accessLevel" : "Public",
+            "type" : "FunctionDef",
+            "expression" : {
+               "name" : "ToQuantity",
+               "libraryName" : "FHIRHelpers",
+               "type" : "FunctionRef",
+               "operand" : [ {
+                  "strict" : false,
+                  "type" : "As",
+                  "operand" : {
+                     "path" : "value",
+                     "type" : "Property",
+                     "source" : {
+                        "name" : "Obs",
+                        "type" : "OperandRef"
+                     }
+                  },
+                  "asTypeSpecifier" : {
+                     "name" : "{http://hl7.org/fhir}Quantity",
+                     "type" : "NamedTypeSpecifier"
+                  }
+               } ]
+            },
+            "operand" : [ {
+               "name" : "Obs",
+               "operandTypeSpecifier" : {
+                  "name" : "{http://hl7.org/fhir}Observation",
+                  "type" : "NamedTypeSpecifier"
+               }
+            } ]
+         }, {
+            "name" : "LDL > 130 mg/dL",
+            "context" : "Patient",
+            "accessLevel" : "Public",
+            "expression" : {
+               "type" : "Greater",
+               "operand" : [ {
+                  "name" : "QuantityValue",
+                  "type" : "FunctionRef",
+                  "operand" : [ {
+                     "name" : "MostRecent",
+                     "type" : "FunctionRef",
+                     "operand" : [ {
+                        "name" : "Verified",
+                        "type" : "FunctionRef",
+                        "operand" : [ {
+                           "name" : "ObservationLookBack",
+                           "type" : "FunctionRef",
+                           "operand" : [ {
+                              "dataType" : "{http://hl7.org/fhir}Observation",
+                              "codeProperty" : "code",
+                              "codeComparator" : "in",
+                              "type" : "Retrieve",
+                              "codes" : {
+                                 "name" : "LDL-c VS",
+                                 "type" : "ValueSetRef"
+                              }
+                           }, {
+                              "value" : 6,
+                              "unit" : "years",
+                              "type" : "Quantity"
+                           } ]
+                        } ]
+                     } ]
+                  } ]
+               }, {
+                  "value" : 130,
+                  "unit" : "mg/dL",
+                  "type" : "Quantity"
+               } ]
+            }
+         }, {
+            "name" : "Has Diabetes",
+            "context" : "Patient",
+            "accessLevel" : "Public",
+            "expression" : {
+               "type" : "Exists",
+               "operand" : {
+                  "type" : "Query",
+                  "source" : [ {
+                     "alias" : "Co",
+                     "expression" : {
+                        "dataType" : "{http://hl7.org/fhir}Condition",
+                        "codeProperty" : "code",
+                        "codeComparator" : "in",
+                        "type" : "Retrieve",
+                        "codes" : {
+                           "name" : "Diabetes VS",
+                           "type" : "ValueSetRef"
+                        }
+                     }
+                  } ],
+                  "relationship" : [ ],
+                  "where" : {
+                     "type" : "And",
+                     "operand" : [ {
+                        "type" : "Equivalent",
+                        "operand" : [ {
+                           "name" : "ToConcept",
+                           "libraryName" : "FHIRHelpers",
+                           "type" : "FunctionRef",
+                           "operand" : [ {
+                              "path" : "verificationStatus",
+                              "scope" : "Co",
+                              "type" : "Property"
+                           } ]
+                        }, {
+                           "type" : "ToConcept",
+                           "operand" : {
+                              "name" : "Confirmed code",
+                              "type" : "CodeRef"
+                           }
+                        } ]
+                     }, {
+                        "type" : "Equivalent",
+                        "operand" : [ {
+                           "name" : "ToConcept",
+                           "libraryName" : "FHIRHelpers",
+                           "type" : "FunctionRef",
+                           "operand" : [ {
+                              "path" : "clinicalStatus",
+                              "scope" : "Co",
+                              "type" : "Property"
+                           } ]
+                        }, {
+                           "type" : "ToConcept",
+                           "operand" : {
+                              "name" : "Active code",
+                              "type" : "CodeRef"
+                           }
+                        } ]
+                     } ]
+                  }
+               }
+            }
+         }, {
+            "name" : "10-year ASCVD Risk >= 10%",
+            "context" : "Patient",
+            "accessLevel" : "Public",
+            "expression" : {
+               "type" : "GreaterOrEqual",
+               "operand" : [ {
+                  "name" : "PatientBaselineRisk",
+                  "libraryName" : "Million_Hearts_Baseline_10_Year_ASCVD_Risk_FHIRv400",
+                  "type" : "ExpressionRef"
+               }, {
+                  "valueType" : "{urn:hl7-org:elm-types:r1}Decimal",
+                  "value" : "0.1",
+                  "type" : "Literal"
+               } ]
+            }
+         }, {
+            "name" : "On Statin Therapy",
+            "context" : "Patient",
+            "accessLevel" : "Public",
+            "expression" : {
+               "type" : "Exists",
+               "operand" : {
+                  "type" : "Query",
+                  "source" : [ {
+                     "alias" : "MR",
+                     "expression" : {
+                        "dataType" : "{http://hl7.org/fhir}MedicationRequest",
+                        "codeProperty" : "medication",
+                        "codeComparator" : "in",
+                        "type" : "Retrieve",
+                        "codes" : {
+                           "name" : "Statins VS",
+                           "type" : "ValueSetRef"
+                        }
+                     }
+                  } ],
+                  "relationship" : [ ],
+                  "where" : {
+                     "type" : "And",
+                     "operand" : [ {
+                        "type" : "In",
+                        "operand" : [ {
+                           "name" : "ToString",
+                           "libraryName" : "FHIRHelpers",
+                           "type" : "FunctionRef",
+                           "operand" : [ {
+                              "path" : "status",
+                              "scope" : "MR",
+                              "type" : "Property"
+                           } ]
+                        }, {
+                           "type" : "List",
+                           "element" : [ {
+                              "valueType" : "{urn:hl7-org:elm-types:r1}String",
+                              "value" : "active",
+                              "type" : "Literal"
+                           }, {
+                              "valueType" : "{urn:hl7-org:elm-types:r1}String",
+                              "value" : "completed",
+                              "type" : "Literal"
+                           } ]
+                        } ]
+                     }, {
+                        "type" : "In",
+                        "operand" : [ {
+                           "name" : "ToDateTime",
+                           "libraryName" : "FHIRHelpers",
+                           "type" : "FunctionRef",
+                           "operand" : [ {
+                              "path" : "authoredOn",
+                              "scope" : "MR",
+                              "type" : "Property"
+                           } ]
+                        }, {
+                           "lowClosed" : true,
+                           "highClosed" : true,
+                           "type" : "Interval",
+                           "low" : {
+                              "type" : "Subtract",
+                              "operand" : [ {
+                                 "type" : "Now"
+                              }, {
+                                 "value" : 2,
+                                 "unit" : "years",
+                                 "type" : "Quantity"
+                              } ]
+                           },
+                           "high" : {
+                              "type" : "Now"
+                           }
+                        } ]
+                     } ]
+                  }
+               }
+            }
+         }, {
+            "name" : "One or More Risk Factors",
+            "context" : "Patient",
+            "accessLevel" : "Public",
+            "expression" : {
+               "type" : "Or",
+               "operand" : [ {
+                  "type" : "Or",
+                  "operand" : [ {
+                     "name" : "LDL > 130 mg/dL",
+                     "type" : "ExpressionRef"
+                  }, {
+                     "name" : "Has Diabetes",
+                     "type" : "ExpressionRef"
+                  } ]
+               }, {
+                  "name" : "Has Hypertension",
+                  "type" : "ExpressionRef"
+               } ]
+            }
+         }, {
+            "name" : "MeetsInclusionCriteria",
+            "context" : "Patient",
+            "accessLevel" : "Public",
+            "expression" : {
+               "type" : "And",
+               "operand" : [ {
+                  "type" : "And",
+                  "operand" : [ {
+                     "name" : "Age 40 to 75",
+                     "type" : "ExpressionRef"
+                  }, {
+                     "name" : "One or More Risk Factors",
+                     "type" : "ExpressionRef"
+                  } ]
+               }, {
+                  "name" : "10-year ASCVD Risk >= 10%",
+                  "type" : "ExpressionRef"
+               } ]
+            }
+         }, {
+            "name" : "MeetsExclusionCriteria",
+            "context" : "Patient",
+            "accessLevel" : "Public",
+            "expression" : {
+               "name" : "On Statin Therapy",
+               "type" : "ExpressionRef"
+            }
+         }, {
+            "name" : "InPopulation",
+            "context" : "Patient",
+            "accessLevel" : "Public",
+            "expression" : {
+               "type" : "And",
+               "operand" : [ {
+                  "name" : "MeetsInclusionCriteria",
+                  "type" : "ExpressionRef"
+               }, {
+                  "type" : "Not",
+                  "operand" : {
+                     "name" : "MeetsExclusionCriteria",
+                     "type" : "ExpressionRef"
+                  }
+               } ]
+            }
+         }, {
+            "name" : "Recommendation",
+            "context" : "Patient",
+            "accessLevel" : "Public",
+            "expression" : {
+               "type" : "If",
+               "condition" : {
+                  "name" : "InPopulation",
+                  "type" : "ExpressionRef"
+               },
+               "then" : {
+                  "valueType" : "{urn:hl7-org:elm-types:r1}String",
+                  "value" : "Start low to moderate intensity lipid lowering therapy based on outcome of shared decision making between patient and provider",
+                  "type" : "Literal"
+               },
+               "else" : {
+                  "asType" : "{urn:hl7-org:elm-types:r1}String",
+                  "type" : "As",
+                  "operand" : {
+                     "type" : "Null"
+                  }
+               }
+            }
+         }, {
+            "name" : "Rationale",
+            "context" : "Patient",
+            "accessLevel" : "Public",
+            "expression" : {
+               "type" : "If",
+               "condition" : {
+                  "name" : "InPopulation",
+                  "type" : "ExpressionRef"
+               },
+               "then" : {
+                  "valueType" : "{urn:hl7-org:elm-types:r1}String",
+                  "value" : "The USPSTF found adequate evidence that use of low- to moderate-dose statins reduces the probability of CVD events (MI or ischemic stroke) and mortality by at least a moderate amount in adults aged 40 to 75 years who have 1 or more CVD risk factors (dyslipidemia, diabetes, hypertension, or smoking) and a calculated 10-year CVD event risk of 10% or greater.",
+                  "type" : "Literal"
+               },
+               "else" : {
+                  "asType" : "{urn:hl7-org:elm-types:r1}String",
+                  "type" : "As",
+                  "operand" : {
+                     "type" : "Null"
+                  }
+               }
+            }
+         }, {
+            "name" : "Links",
+            "context" : "Patient",
+            "accessLevel" : "Public",
+            "expression" : {
+               "type" : "If",
+               "condition" : {
+                  "name" : "InPopulation",
+                  "type" : "ExpressionRef"
+               },
+               "then" : {
+                  "type" : "Null"
+               },
+               "else" : {
+                  "type" : "Null"
+               }
+            }
+         }, {
+            "name" : "Errors",
+            "context" : "Patient",
+            "accessLevel" : "Public",
+            "expression" : {
+               "type" : "Null"
+            }
+         } ]
+      }
+   }
+}
+

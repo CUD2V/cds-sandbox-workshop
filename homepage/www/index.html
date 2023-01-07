@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>AMIA Workshop</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+  
+    <div class="main_page">
+      <div class="page-header floating_element">
+        <h1>AMIA 2021 Annual Symposium</h1>
+         <p>&nbsp;</p>
+        <h2 class="title">
+          W13: Open-Source and Interoperable Approaches for Clinical Decision Support 
+          (sponsored by Clinical Decision Support Working Group)
+        </h2>
+        <p>&nbsp;</p>
+        <p>
+        <b>Andrey Soares, PhD<sup>1</sup>; 
+          Majid Afshar*, MD, MSCR<sup>2</sup>; 
+          Joshua E. Richardson*, PhD, MS, MLIS<sup>3</sup>; 
+          Chris Moesel<sup>4</sup>; 
+          Anthony Solomonides, PhD<sup>5</sup>; 
+          Eleanor Barone*, MD<sup>6</sup>; 
+          Eric Pan*, MD<sup>7</sup>; 
+          Michael A. Grasso, MD, PhD<sup>8</sup>; 
+          Lisa Schilling, MD, MSPH<sup>1</sup>;
+          on behalf of the AMIA Clinical Decision Support Working Group*</b>
+        <p><sup>1</sup>University of Colorado School of Medicine, Aurora, Colorado; 
+          <sup>2</sup>University of Wisconsin - Madison, WI; 
+          <sup>3</sup>RTI International, Chicago, IL; 
+          <sup>4</sup>MITRE Corporation, Maclean, VA; 
+          <sup>5</sup>Northshore University, Evanston, IL; 
+          <sup>6</sup>Veterans Administration Medical Center, Fayetteville, NC; 
+          <sup>7</sup>Westat, Rockville, MD; 
+          <sup>8</sup>University of Maryland, Baltimore, MD</p>
+        </p>
+      </div>
+    </div>
+    
+    <div>
+        <h2 class="description">FHIR-Based Open-Source CDS Sandbox</h2>
+    </div>
+      
+    <div>
+      <table>
+        <tr>
+        <th><h4>Service Links</h4></th>
+
+        <th><h4>Notes</h4></th>
+        </tr>
+        
+        
+        <tr>
+        <td><h4>VSCode/CQL Plugin</h4></td>
+    
+        <td>Use the Visual Studio Code text editor to open CQL files (extension .cql).</td>
+        </tr>  
+        
+        <tr>
+        <td><h4><a href="http://localhost:9000/authoring">CDS Authoring Tool</a></h4></td>
+
+        <td>You need a UMLS account to select value sets and codes from <a href="https://vsac.nlm.nih.gov/">VSAC</a>. 
+        <p>Login credentials: username = <span class="code">demo</span> and password = <span class="code">password</span></p></td>
+        </tr>
+        
+        <tr>
+        <td><h4><a href="http://localhost:3000">CDS Connect CQL Services</a></h4></td>
+
+        <td><p>You need to setup your <a href="https://uts.nlm.nih.gov//license.html">UMLS</a> credentials for <a href="https://vsac.nlm.nih.gov/">VSAC</a> downloads.</p>
+        <p>To stop the service: <span class="code">docker stop cql-services</span>. To start the service: <span class="code">docker start cql-services</span></p></td>
+        </tr>
+        
+        <tr>
+        <td><h4><a href="http://localhost:8000/?fhirServiceUrl=http%3A%2F%2Flocalhost:4004%2Fhapi-fhir-jpaserver%2Ffhir&patientId=1">CDS Hooks Sandbox</a></h4></td>
+
+        <td></td>
+        </tr>      
+            
+        <tr>
+        <td><h4>CQL-to-ELM Translator</h4></td>
+    
+        <td>To translate CQL to ELM format: <span class="code">cql-to-elm --format=JSON --input &lt;input file&gt; --output &lt;output folder&gt;</span></td>
+        </tr>           
+
+        <tr>
+        <td><h4><a href="http://localhost:4013/ehr.html?app=http%3A%2F%2Flocalhost%3A3030%2Flaunch%3Flaunch%3DeyJhIjoiMSIsImUiOiIzIiwiZiI6IjEifQ%26iss%3Dhttp%253A%252F%252Flocalhost%253A4013%252Fv%252Fr4%252Ffhir&user=3">CQL Results</a></h4></td>
+        <td>Select patients to test the app. Search patient by name.</td>
+        </tr>
+            
+        <tr>
+        <td><h4><a href="http://localhost:4004/hapi-fhir-jpaserver">HAPI FHIR Server R4</a></h4></td>
+
+        <td><p>To stop the service: <span class="code">docker stop hapi-r4</span>. To start the service: <span class="code">docker start hapi-r4</span></p></td>
+        </tr>   
+        
+        <tr>
+        <td><h4><a href="http://localhost:4013">SMART App Launcher</a></h4></td>
+
+        <td></td>
+        </tr>                       
+        
+        <tr>
+        <td><h4><a href="http://localhost:4000">SMART Sandbox</a></h4></td>
+
+        <td></td>
+        </tr>                                    
+        </table>
+    </div>
+   
+  </body>
+</html>
